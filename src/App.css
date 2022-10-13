@@ -1,0 +1,503 @@
+* {
+  padding: 0;
+  margin: o;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.Twitter {
+  display: flex;
+}
+.Sidebar {
+  width: 25%;
+  position: fixed;
+  left: 0;
+  height: 100%;
+  border-right: 1px solid rgb(230, 236, 240);
+  cursor: pointer;
+}
+.Sidebsr ul {
+  list-style: none;
+  cursor: pointer;
+}
+.Sidebar ul li span {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  padding: 17px 30px;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+}
+.Sidebar ul li span:hover {
+  background-color: #e8f5fe;
+  color: #1da1f2;
+  cursor: pointer;
+}
+.icons {
+  margin-right: 15px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.logo {
+  color: #1da1f2;
+}
+.sidebar-btn {
+  margin: 15px 0;
+  cursor: pointer;
+}
+.sidebar-btn span {
+  text-decoration: none;
+  background: #1da1f2;
+  color: white;
+  padding: 10px 35px;
+  margin: 13 35px;
+  border-radius: 50px;
+  outline: none;
+  display: block;
+  text-align: center;
+}
+
+/* posta styles */
+.posts {
+
+  width: 50%;
+  margin-left: 25%;
+  border-right: 1px solid rgb(230, 236, 240);
+}
+.posts__home {
+  width: 50%;
+  position: fixed;
+  top: 0;
+  padding: 15px;
+  font-weight: 900;
+  border-bottom: 1px solid rgb(230, 236, 240);
+  background-color: white;
+  border-right: 1px solid rgb(230, 236, 240);
+}
+.create {
+  padding-top: 70px;
+  border-bottom: 1px solid rgb(230, 236, 240);
+  padding-bottom: 20px;
+}
+.create__first {
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+}
+.create__img {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+.create__img img {
+  width: 100%;
+  height: 100%;
+}
+.create__input {
+  margin-left: 20px;
+}
+.create__control {
+  border: none;
+  outline: none;
+}
+.create__second {
+  margin-left: 20px;
+  margin-top: 15px;
+  display: flex;
+}
+
+.create__icon {
+  width: 50%;
+}
+.ic {
+  margin: 0 6px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #1da1f2;
+}
+
+.create_btn {
+  width: 50%;
+  text-align: right;
+  margin-right: 40px;
+}
+.create_btn button {
+  /* text-decoration: none; */
+  background-color: #1da1f2;
+  color: white;
+  outline: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.postss {
+  /* padding: 20px; */
+    margin-top: 20px;
+    margin-bottom: 10px;
+  border-bottom: 1px solid rgb(230, 236, 240);
+
+
+}
+.postss__first {
+  display: flex;
+  align-items: center;
+ 
+}
+.postss__first__img {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+.postss__first__img2 {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+.postss__first__img img {
+  width: 100%;
+  height: 100%;
+}
+.postss__first__name {
+  margin-left: 6px;
+  display: flex;
+
+}
+.postss__first__username {
+  margin-left: 6px;
+  color: silver;
+  font-weight: 500;
+}
+.postss__first__username span {
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 14px;
+}
+.verify {
+  margin-left: 3px;
+  color: #1da1f2;
+}
+.postss__details {
+  margin: 8px 30px;
+ /* scrollbar-3dlight-color: #1da1f2; */
+  /* overflow: hidden; */
+  overflow-wrap: break-word;
+}
+.postss__details__img {
+  width: 100%;
+  margin-top: 10px;
+  
+}
+.postss__details__img img {
+  width: 100%;
+}
+.reactions {
+  display: flex;
+  margin: 8px 0;
+  justify-content: space-between;
+  align-items: center;
+  /* color: red; */
+}
+.li {
+  font-size: 30px;
+  cursor: pointer;
+  /* padding-right: 70px; */
+  color: red;
+}
+.theme {
+  font-size: 34px;
+  cursor: pointer;
+  /* padding-left: 3px;
+  padding-top: 4px; */
+  padding: 5px;
+}
+
+.la {
+  font-size: 30px;
+  cursor: pointer;
+  /* padding-right: 70px; */
+  color: green;
+}
+.arrow{
+  font-size: 30px;
+  margin-left: 390px;
+  /* margin-left: 424px; */
+  cursor: pointer;
+   color: crimson;
+
+}
+.arrowrep{
+  font-size: 20px;
+  margin-left: 30px;
+  cursor: pointer;
+   color: crimson;
+
+}
+.arrow2{
+  font-size: 30px;
+  /* margin-left: 424px; */
+  margin-left: 390px;
+  cursor: pointer;
+  color: green;
+
+}
+.arrow2rep{
+   font-size: 20px;
+  margin-left: 30px;
+  cursor: pointer;
+   color: green;
+
+}
+.Language {
+  margin-left: 416px;
+}
+.co {
+  font-size: 30px;
+  cursor: pointer;
+  color: grey;
+  justify-content: space-between;
+}
+.sh {
+  font-size: 30px;
+  cursor: pointer;
+  justify-content: space-between;
+
+  color: #1da1f2;
+}
+.share {
+  cursor: pointer;
+  padding: 5px;
+
+  justify-content: space-between;
+}
+
+.shar {
+  cursor: pointer;
+  margin-left: 305px;
+  justify-content: space-between;
+}
+
+/* Trands css */
+.trands {
+  width: 25%;
+}
+.trands__search {
+  position: fixed;
+  width: 25%;
+  top: 10px;
+  right: 0;
+  /* border-bottom: 2px solid rgb(230, 236, 240) ; */
+  padding-bottom: 20px;
+  margin-left: 20px;
+}
+.trands__control {
+  border: none;
+  width: 100%;
+  margin-left: 20px;
+  outline: none;
+  background: #f5f4f2;
+  border-radius: 50px;
+  padding: 15px 38px;
+}
+.trands__icon {
+  position: absolute;
+  top: 15px;
+  left: 35px;
+}
+.search {
+  font-size: 20px;
+  color: silver;
+}
+.keywords {
+  position: fixed;
+  top: 70px;
+  right: 0;
+  width: 25%;
+  padding: 5px 10px;
+}
+.key {
+  background: #f5f8fa;
+  padding: 10px;
+  border-radius: 5px;
+}
+.keyword__heading {
+  font-size: 20px;
+  border-bottom: 2px solid rgb(230, 236, 240);
+}
+.country {
+  font-size: 14px;
+  color: silver;
+  font-weight: 300;
+  margin: 10px 0;
+}
+.keyword__name {
+  margin-bottom: 8px;
+}
+.keyword__tweet {
+  margin-top: 7px;
+  color: silver;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* 👥👥👤👤👤👤 user*/
+.user :hover {
+  background-color: #1da1f2;
+}
+.user__img {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+/*image upload css*/
+/* 👌👌👌😒😒image style */
+.fileUploader {
+  border: 1px solid #e1e1e1;
+}
+
+.fileContainer {
+  background: #fff;
+  box-shadow: none;
+  position: relative;
+  border-radius: 10px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: all 0.3s ease-in;
+  /* height: 275px; */
+}
+
+.fileContainer p:empty {
+  font-size: 12px;
+  margin: 0;
+}
+
+.fileContainer .uploadPicturesWrapper {
+  /* display: flex;*/
+  flex-wrap: wrap;
+  justify-content: center; 
+  position: relative;
+  top: -51px;
+  /* width: 300px;*/ 
+  height: auto;
+  /*added by umesh*/
+  margin-top: 70px;
+} 
+.uploadPicturesWrapper > div:empty {
+  height: 1px;
+}
+
+.fileContainer .uploadPictureContainer {
+  /* width: 285px; */
+  width: 100%;
+  height: 224px;
+  margin: 5%;
+  padding: 5px;
+  /* background: #edf2f6;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* height: inherit; */
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+  /* border: 1px solid #d0dbe4; */
+  position: relative;
+}
+
+.fileContainer .deleteImage {
+  position: absolute;
+  right: unset;
+  top: unset;
+  border-radius: 0;
+  text-align: center;
+  cursor: pointer;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 30px;
+  width: 134px;
+  height: 30px;
+  left: 0;
+  bottom: -45px;
+  background-image: url(https://cdn.onlinewebfonts.com/svg/img_96165.png);
+  background-position: left 4px top 3px;
+  background-repeat: no-repeat;
+  background-size: 17px 23px;
+  background-color: transparent;
+  color: black;
+  overflow: hidden;
+  text-indent: -156px;
+}
+
+.fileContainer .deleteImage:after {
+  content: "Delete image";
+  position: absolute;
+  right: -45px;
+  font-size: 16px;
+}
+
+.fileContainer .uploadPictureContainer img.uploadPicture {
+  /* width: 285px; */
+  width: 100%;
+  height: 290px;
+}
+
+.fileContainer .errorsContainer {
+  max-width: 300px;
+  font-size: 12px;
+  position: absolute;
+  z-index: 10;
+  top: 35%;
+  background: rgba(255, 0, 0, 0.7);
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  width: 79%;
+  border-radius: 6px;
+}
+
+.fileContainer .errorsContainer:empty {
+  opacity: 0;
+}
+
+.fileContainer .chooseFileButton {
+  /* padding: 6px 23px; */
+  /* background-image: url(./icon_upload.svg); */
+  /* background-color: #c1c1c1; */
+  background-repeat: no-repeat;
+  background-position: 50% 23%;
+  background-size: 25%;
+  border-radius: 0;
+  cursor: pointer;
+
+  /* color: white; */
+  font-weight: 300;
+  font-size: 14px;
+  /* margin: 10px 0; */
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width:200px ;
+  height:30px;
+  /* width: 95%;
+  height: 100%; */
+}
+
+.fileContainer .chooseFileButton:hover {
+  background-image: url(./icon_upload.svg);
+  cursor: pointer;
+  /* background-color: #c1c1c1; */
+  background-repeat: no-repeat;
+  background-position: 50% 23%;
+  background-size: 25%;
+}
